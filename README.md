@@ -1,3 +1,7 @@
+Here’s the updated and complete README.md including your new points about the frontend, backend, MongoDB, and .env configuration:
+
+🧾 User Resume Management System
+
 This application helps users create and manage their professional profiles, add career activities, and generate resumes in PDF format.
 It has a Next.js frontend, a Node.js + Express backend, and uses MongoDB as the database.
 
@@ -11,7 +15,11 @@ root/
 └── README.md
 
 ⚙️ Setup Instructions
-1. Backend Setup (Node.js + Express + MongoDB)
+1. Clone the Repository
+git clone <repository-url>
+cd <project-folder>
+
+2. Backend Setup (Node.js + Express + MongoDB)
 Navigate to backend folder:
 cd backend
 
@@ -30,8 +38,7 @@ npm run dev
 The backend will run at:
 👉 http://localhost:5000
 
----------------------------------
-2. Frontend Setup (Next.js)
+3. Frontend Setup (Next.js)
 Navigate to frontend folder:
 cd frontend
 
@@ -45,8 +52,6 @@ npm run dev
 The frontend will run at:
 👉 http://localhost:3000
 
-
------------------------------------------
 🚀 How to Use
 1. Register
 
