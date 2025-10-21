@@ -89,22 +89,12 @@ Frontend: **Next.js** | Backend: **Node.js** | Database: **MongoDB**
    ├─ frontend/       # Next.js frontend
    ├─ backend/        # Node.js backend
    ├─ backend/.env    # Environment variables for backend
-
+```
 #### Notes
-Use two terminals to run the frontend and backend simultaneously.
+- Use two terminals to run the frontend and backend simultaneously.
+- Ensure MongoDB is running and .env is correctly configured.
+- All sensitive information like database URI and JWT secret should be in .env.
 
-Ensure MongoDB is running and .env is correctly configured.
-
-All sensitive information like database URI and JWT secret should be in .env.
-
-License
+#### License
 MIT License
 
-yaml
-Copy code
-
----
-
-If you want, I can also **add a short description (350 characters)** at the top for GitHub repo creation, so it’s ready to paste directly.  
-
-Do you want me to do that next?
