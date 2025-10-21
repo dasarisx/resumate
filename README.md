@@ -24,40 +24,32 @@ Frontend: **Next.js** | Backend: **Node.js** | Database: **MongoDB**
    cd backend
 2. Install dependencies:
    ```bash
-Copy code
-npm install
+   Copy code
+   npm install
 
 3. Create a .env file (based on .env.example) and configure:
+   ```bash
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
 
-env
-Copy code
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-Start the backend server:
+4. Start the backend server:
+   ```bash
+   npm run dev
 
-bash
-Copy code
-npm run dev
-Frontend Setup
-Navigate to the frontend folder:
+### Frontend Setup
+1. Navigate to the frontend folder:
+   ```bash
+   cd frontend
+2. Install dependencies:
+   ```bash
+   npm install
+3. Start the frontend:
+   ```bash
+   npm run dev
+4. Open the app in your browser (usually at http://localhost:3000).
 
-bash
-Copy code
-cd frontend
-Install dependencies:
-
-bash
-Copy code
-npm install
-Start the frontend:
-
-bash
-Copy code
-npm run dev
-Open the app in your browser (usually at http://localhost:3000).
-
-Usage
-Register
+### Usage
+#### Register
 Go to the Register page.
 
 Provide your email, username, and password.
