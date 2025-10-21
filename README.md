@@ -50,30 +50,23 @@ Frontend: **Next.js** | Backend: **Node.js** | Database: **MongoDB**
 
 ### Usage
 #### Register
-Go to the Register page.
+- Go to the Register page.
+- Provide your email, username, and password.
+- Submit the form to create a new account.
 
-Provide your email, username, and password.
+#### Login
+- Go to the Login page.
+- Enter your email and password.
+- After successful login, you will be redirected to your Profile Page.
 
-Submit the form to create a new account.
+#### Update Profile
+- On the Profile Page, update your mobile number and summary.
+- Click Update to save the changes.
 
-Login
-Go to the Login page.
-
-Enter your email and password.
-
-After successful login, you will be redirected to your Profile Page.
-
-Update Profile
-On the Profile Page, update your mobile number and summary.
-
-Click Update to save the changes.
-
-Add Activities
-Navigate to the Activities Page.
-
-Add activities completed as part of your career:
-
-Title
+#### Add Activities
+- Navigate to the Activities Page.
+- Add activities completed as part of your career:
+   - Title
 
 Type (Project, Internship, Course)
 
