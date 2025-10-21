@@ -67,37 +67,30 @@ Frontend: **Next.js** | Backend: **Node.js** | Database: **MongoDB**
 - Navigate to the Activities Page.
 - Add activities completed as part of your career:
    - Title
+   - Type (Project, Internship, Course)
+   - Organization / Platform
+   - Duration
+   - Link (optional)
+   - Description
+- Activities will be displayed in a list below the form.
+- You can Edit or Delete each activity if needed.
 
-Type (Project, Internship, Course)
+#### Resume Preview
+- Go to the Resume Preview Page to see how your resume looks.
+- The resume includes your profile details (name, email, mobile, summary) and your activities grouped by type.
 
-Organization / Platform
+#### Download Resume
+- On the Resume Preview Page, click Download to get your resume in PDF format.
 
-Duration
+#### Project Structure
+   ```bash
+   Copy code
+   root/
+   ├─ frontend/       # Next.js frontend
+   ├─ backend/        # Node.js backend
+   ├─ backend/.env    # Environment variables for backend
 
-Link (optional)
-
-Description
-
-Activities will be displayed in a list below the form.
-
-You can Edit or Delete each activity if needed.
-
-Resume Preview
-Go to the Resume Preview Page to see how your resume looks.
-
-The resume includes your profile details (name, email, mobile, summary) and your activities grouped by type.
-
-Download Resume
-On the Resume Preview Page, click Download to get your resume in PDF format.
-
-Project Structure
-bash
-Copy code
-root/
-├─ frontend/       # Next.js frontend
-├─ backend/        # Node.js backend
-├─ .env            # Environment variables for backend
-Notes
+#### Notes
 Use two terminals to run the frontend and backend simultaneously.
 
 Ensure MongoDB is running and .env is correctly configured.
