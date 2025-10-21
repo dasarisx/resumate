@@ -1,96 +1,132 @@
-Here’s the updated and complete README.md including your new points about the frontend, backend, MongoDB, and .env configuration:
+# Resume Builder Application
 
-🧾 User Resume Management System
+A full-stack application to create, manage, and showcase your career activities and generate a professional resume.  
 
-This application helps users create and manage their professional profiles, add career activities, and generate resumes in PDF format.
-It has a Next.js frontend, a Node.js + Express backend, and uses MongoDB as the database.
+Frontend: **Next.js** | Backend: **Node.js** | Database: **MongoDB**
 
-📁 Project Structure
-root/
-│
-├── frontend/        # Next.js frontend (UI)
-│
-├── backend/         # Node.js + Express backend (API)
-│
-└── README.md
+---
 
-⚙️ Setup Instructions
-1. Clone the Repository
-git clone <repository-url>
-cd <project-folder>
+## Features
 
-2. Backend Setup (Node.js + Express + MongoDB)
-Navigate to backend folder:
-cd backend
+- **User Registration & Login**
+- **Profile Management** (update mobile and summary)
+- **Add/Edit/Delete Activities**
+- **Resume Preview & PDF Download**
 
-Install dependencies:
+---
+
+## Getting Started
+
+### Backend Setup
+
+1. Navigate to the backend folder:
+   ```bash
+   cd backend
+2. Install dependencies:
+   ```bash
+Copy code
 npm install
 
-Create a .env file in the backend root with the following variables:
-MONGO_URI=<your-mongodb-connection-string>
-JWT_SECRET=<your-jwt-secret-key>
-PORT=5000
+3. Create a .env file (based on .env.example) and configure:
 
+env
+Copy code
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
 Start the backend server:
+
+bash
+Copy code
 npm run dev
+Frontend Setup
+Navigate to the frontend folder:
 
-
-The backend will run at:
-👉 http://localhost:5000
-
-3. Frontend Setup (Next.js)
-Navigate to frontend folder:
+bash
+Copy code
 cd frontend
-
 Install dependencies:
+
+bash
+Copy code
 npm install
+Start the frontend:
 
-Start the frontend app:
+bash
+Copy code
 npm run dev
+Open the app in your browser (usually at http://localhost:3000).
 
+Usage
+Register
+Go to the Register page.
 
-The frontend will run at:
-👉 http://localhost:3000
+Provide your email, username, and password.
 
-User Resume Management System
-This application allows users to create and manage their professional profile, add activities, and generate a resume in PDF format.
-Features
-•	User registration and login
-•	Profile management (update mobile and summary)
-•	Add, edit, and delete career activities
-•	Resume preview
-•	Download resume in PDF format
-________________________________________
-How to Use
-1. Register
-   •	Go to the Register page.
-   •	Provide your email, username, and password.
-   •	Submit the form to create a new account.
-2. Login
-   •	Go to the Login page.
-   •	Enter your email and password.
-   •	After successful login, you will be redirected to your Profile Page.
-3. Update Profile
-   •	On the Profile Page, update your mobile number and summary about yourself.
-   •	Click Update to save the changes.
-4. Add Activities
-   •	Navigate to the Activities Page.
-   •	Add activities that you have completed as part of your career:
-     o	Title
-     o	Type (Project, Internship, Course)
-     o	Organization / Platform
-     o	Duration
-     o	Link (optional)
-     o	Description
-   •	Once added, activities will be displayed in a list below the form.
-   •	You can Edit or Delete each activity if needed.
-5. Resume Preview
-   •	Go to the Resume Preview Page to see how your resume looks with the added activities.
-   •	The resume will include your profile details (name, email, mobile, summary) and your activities grouped by type.
-6. Download Resume
-   •	On the Resume Preview Page, click Download to get your resume in PDF format.
-________________________________________
+Submit the form to create a new account.
+
+Login
+Go to the Login page.
+
+Enter your email and password.
+
+After successful login, you will be redirected to your Profile Page.
+
+Update Profile
+On the Profile Page, update your mobile number and summary.
+
+Click Update to save the changes.
+
+Add Activities
+Navigate to the Activities Page.
+
+Add activities completed as part of your career:
+
+Title
+
+Type (Project, Internship, Course)
+
+Organization / Platform
+
+Duration
+
+Link (optional)
+
+Description
+
+Activities will be displayed in a list below the form.
+
+You can Edit or Delete each activity if needed.
+
+Resume Preview
+Go to the Resume Preview Page to see how your resume looks.
+
+The resume includes your profile details (name, email, mobile, summary) and your activities grouped by type.
+
+Download Resume
+On the Resume Preview Page, click Download to get your resume in PDF format.
+
+Project Structure
+bash
+Copy code
+root/
+├─ frontend/       # Next.js frontend
+├─ backend/        # Node.js backend
+├─ .env            # Environment variables for backend
 Notes
-•	Make sure you are logged in to access the profile, activities, and resume pages.
-•	All changes are saved per user and protected via authentication token.
-•	The resume PDF includes your profile information and grouped activities.
+Use two terminals to run the frontend and backend simultaneously.
+
+Ensure MongoDB is running and .env is correctly configured.
+
+All sensitive information like database URI and JWT secret should be in .env.
+
+License
+MIT License
+
+yaml
+Copy code
+
+---
+
+If you want, I can also **add a short description (350 characters)** at the top for GitHub repo creation, so it’s ready to paste directly.  
+
+Do you want me to do that next?
