@@ -63,32 +63,32 @@ Features
 ________________________________________
 How to Use
 1. Register
-•	Go to the Register page.
-•	Provide your email, username, and password.
-•	Submit the form to create a new account.
+   •	Go to the Register page.
+   •	Provide your email, username, and password.
+   •	Submit the form to create a new account.
 2. Login
-•	Go to the Login page.
-•	Enter your email and password.
-•	After successful login, you will be redirected to your Profile Page.
+   •	Go to the Login page.
+   •	Enter your email and password.
+   •	After successful login, you will be redirected to your Profile Page.
 3. Update Profile
-•	On the Profile Page, update your mobile number and summary about yourself.
-•	Click Update to save the changes.
+   •	On the Profile Page, update your mobile number and summary about yourself.
+   •	Click Update to save the changes.
 4. Add Activities
-•	Navigate to the Activities Page.
-•	Add activities that you have completed as part of your career:
-  o	Title
-  o	Type (Project, Internship, Course)
-  o	Organization / Platform
-  o	Duration
-  o	Link (optional)
-  o	Description
-•	Once added, activities will be displayed in a list below the form.
-•	You can Edit or Delete each activity if needed.
+   •	Navigate to the Activities Page.
+   •	Add activities that you have completed as part of your career:
+     o	Title
+     o	Type (Project, Internship, Course)
+     o	Organization / Platform
+     o	Duration
+     o	Link (optional)
+     o	Description
+   •	Once added, activities will be displayed in a list below the form.
+   •	You can Edit or Delete each activity if needed.
 5. Resume Preview
-•	Go to the Resume Preview Page to see how your resume looks with the added activities.
-•	The resume will include your profile details (name, email, mobile, summary) and your activities grouped by type.
+   •	Go to the Resume Preview Page to see how your resume looks with the added activities.
+   •	The resume will include your profile details (name, email, mobile, summary) and your activities grouped by type.
 6. Download Resume
-•	On the Resume Preview Page, click Download to get your resume in PDF format.
+   •	On the Resume Preview Page, click Download to get your resume in PDF format.
 ________________________________________
 Notes
 •	Make sure you are logged in to access the profile, activities, and resume pages.
